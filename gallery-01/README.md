@@ -1,5 +1,5 @@
 # Previsualización del diseño 🌊
-![1](https://github.com/SteveGongoraL/CSS-Crafts/assets/55302658/af407952-e213-443a-8282-38d6ea963ac3)
+![gallery-01](https://github.com/SteveGongoraL/CSS-Crafts/assets/55302658/eee40dac-868c-4051-9982-3fd2f19579f9)
 
 ## Explicación
 Para aplicar el efecto de desenfoque en el contenedor deseado, incluye las siguientes propiedades CSS:
