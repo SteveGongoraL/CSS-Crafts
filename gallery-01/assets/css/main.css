@@ -1,0 +1,33 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+.container{
+    background-image: url('../img/atmosphere.webp');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en la pantalla */
+
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+
+    background: transparent; /* Hace que el fondo del elemento sea transparente */
+    backdrop-filter: blur(15px); /* Aplica un desenfoque de 15 píxeles a cualquier contenido detrás del elemento */
+}
+
+h1{
+    color: white;
+}
