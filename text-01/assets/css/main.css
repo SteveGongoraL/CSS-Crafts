@@ -1,0 +1,31 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+.container{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    background: rgb(46, 4, 46);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.918);
+}
+
+.texto{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin: 20px 0 20px 20px;
+    font-size: 80px;
+    letter-spacing: 20px; /* Ajusta el espaciado entre caracteres */
+    background-image: url('../img/text-01.webp'); /* La imagen de fondo que quieres usar */
+    background-size: cover;
+    background-clip: text; /* Recorta la imagen de fondo solo dentro del texto */
+    color: transparent; /* Hace el color del texto transparente */
+}
