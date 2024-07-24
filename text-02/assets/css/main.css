@@ -12,22 +12,25 @@
 
 .content{
     background-color: #000000;
-    width: 300px;
-    height: 200px;
+    width: 60%;
+    height: 60%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
 }
 
+h1{
+    font-family: Montserrat, sans-serif;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 8vw, 6rem); /* Valor mínimo, preferido y máximo */
+    font-weight: 800;
+}
 
 /* Aplicar un gradiente lineal como fondo */
-.texto{
-    text-transform: uppercase;
-    font-family: Montserrat, sans-serif;
-    font-weight: 800;
-    background: linear-gradient(
-        to right, violet, indigo, green, yellow
-    ); /* El gradiente va de izquierda a derecha */
+.textoGradient{
+    background: linear-gradient(92deg, #6a68d9 10%, #da6cae 60%, #f5a957); /* El gradiente va de izquierda a derecha */
     background-clip: text; /* Hacer que el fondo solo se aplique al texto */
     color: transparent; /* Hacer que el texto sea transparente, permitiendo que el gradiente de fondo se vea a través de él */
 }
