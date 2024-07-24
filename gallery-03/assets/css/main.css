@@ -1,0 +1,27 @@
+/* *{
+    outline: 1px solid red;
+} */
+
+body {
+    height: 100vh;
+    display: grid; /* Usar grid layout */
+    place-items: center; /* Centrar el contenido */
+    background: #9db4fa;
+}
+
+.wrapper {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden; /* Ocultar el contenido desbordado */
+}
+
+.wrapper img {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: 100%; /* Imagen ocupa todo el alto del contenedor */
+    object-fit: cover; /* Ajustar la imagen para cubrir el contenedor */
+    transition: transform 400ms; /* Transición suave para el transform */
+}
+
+.wrapper:hover img {
+    transform: scale(1.2); /* Escalar la imagen al pasar el ratón */
+}
